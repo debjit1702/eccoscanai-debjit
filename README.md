@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EcoScan-AI
 
-## Getting Started
+EcoScan-AI is a **decentralized AI-powered smart waste management application** that leverages blockchain and artificial intelligence to revolutionize the way waste is managed. By integrating AI-driven waste recognition and blockchain-powered transparency, EcoScan-AI ensures efficient waste sorting, tracking, and recycling.
 
-First, run the development server:
+## 🌍 Mission
+At **EcoScan-AI**, we are committed to making the world a greener place. Our mission is to create an innovative, sustainable, and transparent waste management solution that empowers individuals, businesses, and organizations to make eco-friendly choices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+- **AI-Powered Waste Detection** – Uses computer vision to classify and sort waste automatically.
+- **Blockchain Transparency** – Ensures secure and immutable tracking of waste disposal and recycling data.
+- **Decentralized Infrastructure** – Eliminates the need for centralized authorities, reducing corruption and inefficiencies.
+- **Reward System** – Incentivizes users and organizations for responsible waste disposal using tokenized rewards.
+- **Mobile and Web Application** – Seamless accessibility across multiple platforms.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
+- **Frontend:** React.js, Next.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Blockchain:** Aptos (Move Smart Contracts)
+- **AI/ML:** TensorFlow, OpenCV (for waste classification)
+- **Database:** PostgreSQL, IPFS (for decentralized storage)
+- **Authentication:** Web3Auth, Metamask
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Setup Instructions
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/your-username/EcoScan-AI.git
+   cd EcoScan-AI
+   ```
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+3. **Set up environment variables** (Create a `.env` file and configure API keys, database credentials, etc.)
+4. **Start the development server**
+   ```sh
+   npm run dev
+   ```
+5. **Deploy Move Smart Contracts** (for Aptos)
+   ```sh
+   aptos move publish --profile default
+   ```
+6. **Run AI model for waste detection**
+   ```sh
+   python ai_model.py
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
+We welcome contributions! To get started:
+1. Fork the repository.
+2. Create a new branch (`feature-branch-name`).
+3. Commit your changes and push the branch.
+4. Open a Pull Request.
 
-## Learn More
+## 📜 License
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## 📧 Contact
+For any queries or collaborations, reach out to us at **[your-email@example.com](mailto:your-email@example.com)** or join our community on [Discord](#).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
+**Join us in revolutionizing waste management with AI and decentralization! 🌱**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
